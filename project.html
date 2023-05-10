@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varendra University</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="project.html"><img src="images/vulogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    <li><a href="login.html">STUDENT LOGIN</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmwnu()"></i>
+        </nav>
+    <div class="text-box">
+       <h1>The Biggest Private University of Rajshahi</h1>
+       <p>Making website is now one of the easiest thing in the world.You 
+        just need to learn HTML,CSS,<br>Javascript and you are good to go.</p>
+       <a href="" class="hero-btn">Visit Us to know More</a>
+    </div>    
+    </section>
+
+    <section class="course">
+        <h1>Programs We offer</h1>
+        <p>Lorem, ipsum dolor sit amet,consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate</h3>
+                <p>Honours Bachelors are specialized programmes in which one major subject 
+                    is studied for 3 or 4 years. The study programmes leading to the 
+                    Bachelor of Arts, Bachelor of Science and Engineering.Bachelor of Science</p>                   
+            </div>
+            <div class="course-col">
+                <h3>Graduate</h3>
+                <p>A Master's degree is an academic degree awarded to individuals 
+                    who successfully denote a higher level of expertise.
+                    There are two main types of Masters - taught and research. 
+                    Bangladesh offers both of them. It generally takes 1-2 years for completing 
+                    a Master's degree in Bangladesh.</p>                   
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="Campas">
+        <h1>Our Permanent Campas</h1>
+        <p>The site for the permanent campus of VU is 
+            situated on about 20 acres of land at Khorkhoria Bypass in Rajshahi 
+            which is away from the 'madding crowd' and it is completely calm, quiet,
+            and tranquil so that academic activities can be pursued in an atmosphere free 
+            from the noise and bustle of city life.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/vu_campus.jpg">
+                <div class="layer">
+
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/vu_campas 2.jpg">
+                <div class="layer">
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmwnu(){
+        navLinks.style.right = "0";
+    function hidemwnu(){
+        navLinks.style.right = "-200px";
+
+    }    
+    }
+ </script>
+
+  
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our FACILITIES</title>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="project.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="">FACILITIES</a></li>
+            <li><a href="login.html">STUDENT LOGIN</a></li>
+            <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+      </div>
+    <section class="facilities">
+       <h1>Our Facilities</h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/Library.jpg">
+                <h3>Library</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/CSE Lab.jpg">
+                <h3>CSE Lab</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/EEE Lab.jpg">
+                <h3>EEE lab</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/pharmacy Lab.jpg">
+                <h3>Pharmacy Lab</h3>
+            </div>
+
+        </div>
+
+    </section>
+    <style>
+        *{
+  margin: 0;
+  padding: 20;
+
+}
+
+
+.menu-bar {
+  background: rgb(0,100,0);
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li 
+{
+  width: 150px;
+  margin: 15px;
+  padding: 3px;
+}
+.menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.active, .menu-bar ul li:hover{
+  background: #2bab0b;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+h1{
+    font-size: 30px;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+    </style>
+</body>
+</html>
